@@ -1,0 +1,14 @@
+{
+  "name": "swcm-blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.2.4",
+    "ejs": "*",
+    "express-partials":"git://github.com/publicclass/express-partials.git#c9b8adde89387dea"
+
+  }
+}
