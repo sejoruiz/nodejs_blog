@@ -8,7 +8,8 @@ var express = require('express')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path')
-  , partials = require('express-partials');
+  , partials = require('express-partials')
+  , counter = require('./routes/counter');
 
 
 
@@ -33,7 +34,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index); // Si la direccion pedida es / entonces se ejecuta el metodo routes.index(req,resp);
+app.get('/', counter.count, routes.index); // Si la direccion pedida es / entonces se ejecuta el metodo routes.index(req,resp);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

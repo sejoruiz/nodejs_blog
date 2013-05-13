@@ -4,19 +4,30 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
+
   <body>
   	<h1>Blog para SWCM </h1>
-  	<a href="/">Home</a>
-
+    <aside>
+      <a href="/">HOME</a>
+      <a href="/info">INFO</a>
+    </aside>
   	<hr>
 
     	<%- body %>
 	
 	</hr>
 
-	<p>
-		Curso 2012-2013
-	</p>
-	
+  <hr>
+    <p>
+		  Curso 2012-2013
+    </p>
+  </hr>
+
+  <hr>
+    <p>
+      Contador de visitas: Llevamos <%= contador %> visitas
+    </p>
+	</hr>
+
   </body>
 </html> 
