@@ -36,6 +36,9 @@ if ('development' == app.get('env')) {
 
 app.get('/', counter.count, routes.index); // Si la direccion pedida es / entonces se ejecuta el metodo routes.index(req,resp);
 app.get('/users', user.list);
+app.get('/info', function(req,res){
+	res.redirect('info.html');
+});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

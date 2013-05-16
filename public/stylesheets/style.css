@@ -5,9 +5,29 @@ body {
 }
 aside {
  text-decoration:none;
+ 
 
 }
+aside a{
+	color:#000000;
+	font-size: 15px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	border-spacing: 30px;
+	border-color: #000000;
+	border-style: solid;
 
+
+}
+#description{
+	font-style: justify;
+	border-spacing: 30px;
+	border-color: #81BEF7;
+	border-style: solid;
+	padding: 15px 15px;
+}
+
+{}
 a {
   color: #00B7FF;
 }
