@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.2.15
+3 info using node@v0.10.1
+4 verbose read json E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'E:\\Sergio\\Dropbox\\Universidad\\SWCM\\Entregas\\Entrega 3 Blog\\blog',
+6 verbose install   [ 'express', 'ejs', 'express-partials', 'sequelize' ] ]
+7 verbose from cache E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\package.json
+8 info preinstall swcm-blog@0.0.1
+9 verbose read json E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\ejs\package.json
+10 verbose read json E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\express\package.json
+11 verbose read json E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\express-partials\package.json
+12 verbose read json E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\sequelize\package.json
+13 verbose read json E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\sqlite3\package.json
+14 verbose from cache E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\package.json
+15 verbose readDependencies using package.json deps
+16 verbose from cache E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\ejs\package.json
+17 verbose from cache E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\express\package.json
+18 verbose from cache E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\express-partials\package.json
+19 verbose from cache E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\sequelize\package.json
+20 verbose from cache E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog\node_modules\sqlite3\package.json
+21 verbose cache add [ 'sequelize@git://github.com/sequelize/sequelize.git', null ]
+22 verbose cache add name=undefined spec="sequelize@git://github.com/sequelize/sequelize.git" args=["sequelize@git://github.com/sequelize/sequelize.git",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'sequelize@git://github.com/sequelize/sequelize.git',
+23 verbose parsed url   path: 'sequelize@git://github.com/sequelize/sequelize.git',
+23 verbose parsed url   href: 'sequelize@git://github.com/sequelize/sequelize.git' }
+24 verbose cache add name="sequelize" spec="git://github.com/sequelize/sequelize.git" args=["sequelize","git://github.com/sequelize/sequelize.git"]
+25 verbose parsed url { protocol: 'git:',
+25 verbose parsed url   slashes: true,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: 'github.com',
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: 'github.com',
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '/sequelize/sequelize.git',
+25 verbose parsed url   path: '/sequelize/sequelize.git',
+25 verbose parsed url   href: 'git://github.com/sequelize/sequelize.git' }
+26 verbose already installed skipping express@3.2.4 E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog
+27 verbose already installed skipping ejs@* E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog
+28 verbose cache add [ 'express-partials@git://github.com/publicclass/express-partials.git#c9b8adde89387dea',
+28 verbose cache add   null ]
+29 verbose cache add name=undefined spec="express-partials@git://github.com/publicclass/express-partials.git#c9b8adde89387dea" args=["express-partials@git://github.com/publicclass/express-partials.git#c9b8adde89387dea",null]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: '#c9b8adde89387dea',
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: 'express-partials@git://github.com/publicclass/express-partials.git',
+30 verbose parsed url   path: 'express-partials@git://github.com/publicclass/express-partials.git',
+30 verbose parsed url   href: 'express-partials@git://github.com/publicclass/express-partials.git#c9b8adde89387dea' }
+31 verbose cache add name="express-partials" spec="git://github.com/publicclass/express-partials.git#c9b8adde89387dea" args=["express-partials","git://github.com/publicclass/express-partials.git#c9b8adde89387dea"]
+32 verbose parsed url { protocol: 'git:',
+32 verbose parsed url   slashes: true,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: 'github.com',
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: 'github.com',
+32 verbose parsed url   hash: '#c9b8adde89387dea',
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '/publicclass/express-partials.git',
+32 verbose parsed url   path: '/publicclass/express-partials.git',
+32 verbose parsed url   href: 'git://github.com/publicclass/express-partials.git#c9b8adde89387dea' }
+33 silly lockFile 36026e3d-thub-com-sequelize-sequelize-git git://github.com/sequelize/sequelize.git
+34 verbose lock git://github.com/sequelize/sequelize.git C:\Users\Sergio\AppData\Roaming\npm-cache\36026e3d-thub-com-sequelize-sequelize-git.lock
+35 silly lockFile 1b80e693-ss-partials-git-c9b8adde89387dea git://github.com/publicclass/express-partials.git#c9b8adde89387dea
+36 verbose lock git://github.com/publicclass/express-partials.git#c9b8adde89387dea C:\Users\Sergio\AppData\Roaming\npm-cache\1b80e693-ss-partials-git-c9b8adde89387dea.lock
+37 verbose addRemoteGit [ 'git://github.com/sequelize/sequelize.git', 'master' ]
+38 verbose addRemoteGit [ 'git://github.com/publicclass/express-partials.git',
+38 verbose addRemoteGit   'c9b8adde89387dea' ]
+39 silly exec git "clone" "--mirror" "git://github.com/sequelize/sequelize.git" "C:\\Users\\Sergio\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-sequelize-sequelize-git-36026e3d"
+40 silly git,clone,--mirror,git://github.com/sequelize/sequelize.git,C:\Users\Sergio\AppData\Roaming\npm-cache\_git-remotes\git-github-com-sequelize-sequelize-git-36026e3d, spawning
+41 silly exec git "clone" "--mirror" "git://github.com/publicclass/express-partials.git" "C:\\Users\\Sergio\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-publicclass-express-partials-git-4988eaf2"
+42 silly git,clone,--mirror,git://github.com/publicclass/express-partials.git,C:\Users\Sergio\AppData\Roaming\npm-cache\_git-remotes\git-github-com-publicclass-express-partials-git-4988eaf2, spawning
+43 error git clone git://github.com/publicclass/express-partials.git Cloning into bare repository 'C:\Users\Sergio\AppData\Roaming\npm-cache\_git-remotes\git-github-com-publicclass-express-partials-git-4988eaf2'...
+43 error git clone git://github.com/publicclass/express-partials.git
+43 error git clone git://github.com/publicclass/express-partials.git fatal: unable to connect to github.com:
+43 error git clone git://github.com/publicclass/express-partials.git github.com[0: 204.232.175.90]: errno=No such file or directory
+44 error git clone git://github.com/sequelize/sequelize.git Cloning into bare repository 'C:\Users\Sergio\AppData\Roaming\npm-cache\_git-remotes\git-github-com-sequelize-sequelize-git-36026e3d'...
+44 error git clone git://github.com/sequelize/sequelize.git
+44 error git clone git://github.com/sequelize/sequelize.git fatal: unable to connect to github.com:
+44 error git clone git://github.com/sequelize/sequelize.git github.com[0: 204.232.175.90]: errno=No such file or directory
+45 silly lockFile 4988eaf2-publicclass-express-partials-git git://github.com/publicclass/express-partials.git
+46 error Error: `git "clone" "--mirror" "git://github.com/publicclass/express-partials.git" "C:\\Users\\Sergio\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-publicclass-express-partials-git-4988eaf2"` failed with 128
+46 error     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\exec.js:59:20)
+46 error     at ChildProcess.EventEmitter.emit (events.js:98:17)
+46 error     at maybeClose (child_process.js:700:16)
+46 error     at Socket.<anonymous> (child_process.js:913:11)
+46 error     at Socket.EventEmitter.emit (events.js:95:17)
+46 error     at Pipe.close (net.js:451:12)
+47 error If you need help, you may report this log at:
+47 error     <http://github.com/isaacs/npm/issues>
+47 error or email it to:
+47 error     <npm-@googlegroups.com>
+48 error System Windows_NT 6.2.9200
+49 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+50 error cwd E:\Sergio\Dropbox\Universidad\SWCM\Entregas\Entrega 3 Blog\blog
+51 error node -v v0.10.1
+52 error npm -v 1.2.15
+53 verbose exit [ 1, true ]
